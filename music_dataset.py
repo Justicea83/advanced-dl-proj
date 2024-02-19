@@ -28,7 +28,7 @@ class MusicTracksDataset(Dataset):
     @classmethod
     def cleaned_data(cls, csv_file):
         df = pd.read_csv(csv_file)
-        # Ensure 'track_genre' is not dropped in this step
+        # Drop unused columns
         df = df.drop(['track_id', 'artists', 'album_name', 'Unnamed: 0', 'track_name'], axis=1)
         return df
 

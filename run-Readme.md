@@ -1,9 +1,6 @@
-Install these packages
 
-torchvision
-numpy
-matplotlib
-sckit-learn
-torch
+### Follow these steps to run the codes
+1. Install the following packages
+    RUN `pip install torch torchvision numpy sckit-learn seaborn pandas`
 
-Run all the cells in the notebook
+2. Go to `notebook.ipynb` > `Choose your environment` > `Run all cells`

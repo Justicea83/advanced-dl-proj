@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.optim import Adam, RMSprop, LBFGS, Adagrad
+from torch.optim import Adam, RMSprop, Adagrad
 
 
 class MusicGenreClassifier(nn.Module):
