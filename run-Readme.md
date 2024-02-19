@@ -2,12 +2,13 @@ Dataset Link: https://huggingface.co/datasets/maharshipandya/spotify-tracks-data
 
 
 ### Follow these steps to run the codes
-1. Create a new conda environment
+1. Install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.anaconda.com/free/miniconda/index.html)
+2. Create a new conda environment
     RUN `conda create -n careaienv`
-2. Activate the environment
+3. Activate the environment
     RUN `conda activate careaienv`
-3. Install the following packages
+4. Install the following packages
     RUN `pip install torch torchvision numpy sckit-learn seaborn pandas`
 
-4. Go to `notebook.ipynb` > `Choose your environment` > `Run all cells`
-5. RUN `conda deactivate`
+5. Go to `notebook.ipynb` > `Choose your environment` > `Run all cells`
+6. RUN `conda deactivate`
